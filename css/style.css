@@ -1,0 +1,177 @@
+/*
+selecteur{
+    propriete:valeur;
+}*/
+@font-face {
+    font-family:'BatmanForeverAlternate' ;
+    src: url("fonts/batmfa__.ttf");
+}
+body{
+    position: relative;
+    background-color: lightblue ;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family:'BatmanForeverAlternate',Arial, Helvetica, sans-serif
+}
+header{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px;
+    padding: 14px;
+    border: 0px;
+    background-color: #000080;
+    background-size: auto;
+}
+h1{
+    margin:0px;
+    padding: 0px;
+}
+img {
+    width: 200px
+}
+.bloc0{
+    background-color: rgb(2, 252, 219);
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+}
+    
+.bloc1{
+    display: flex;
+    justify-content:space-around;
+    background-image: url(../image/lametric_music_gif-min.gif);
+    background-position: center;
+    background-size: 150px;
+}
+.bloc2{
+    margin: 0px;
+    padding: 0px;
+    height: 250px;;
+    display:flex;
+    justify-content:space-around ;
+    text-align:left;
+
+}
+.bloc3{
+    display: flex;
+    justify-content: space-around;
+    width: 1;
+    height: 120px;
+    border-radius: 15px;
+}
+
+.bloc3>img{
+    
+
+}
+.spotify{
+    width: 20%;
+    height: 140%;
+    border-radius: 15px;
+}
+.deezer{
+    width: 10%;
+    height: 90%;
+    border-radius: 15px;
+}.apple{
+    width: 10%;
+    height: 90%;
+    border-radius: 15px;
+}
+
+.bloc4{
+    display:flex;
+    justify-content:space-around ;
+
+
+
+}
+.bloc31{
+    display: flex;
+    justify-content: space-around
+    ;
+     
+}
+
+
+.style1{
+    color: rgb(0, 0, 0);
+    text-align:center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    text-decoration-style: wavy;
+    background-color:rgb(253, 253, 253);
+    background: position 10px; ;
+}
+h2{
+color: darkorchid;
+}
+.skrink{
+    width: 5%;     
+}
+.video{
+    height: 320px;
+}
+
+
+footer{
+    position: absolute;
+    width: 100%; height: 50px;
+    bottom: 0; left: 0; right: 0;
+    background-color: lightskyblue;
+    border: 3px solid rgb(33, 42, 173);
+}
+ul li{
+    list-style:square;
+}
+.darkpurple{
+    color:indigo ;
+}
+.grey{
+    color:dimgray;
+}
+.page3{
+    text-align: center;
+    position: relative;
+    left: 30px;
+    
+}
+
+
+
+
+@media(min-width: 200px) and (max-width: 780px){
+    header{
+        padding: 7px;
+    }
+    footer{
+        width: 100%; height: 30px;
+        position: absolute;
+        
+        }
+    .video{
+        height: 200px;
+    }
+    body{
+        font-size: smaller;
+    }
+    .bloc1{
+        background-image: url(../image/lametric.png);
+        flex-shrink: 100px;
+        height:100px;
+       }
+     
+}  
+@media(min-width: 200px) and (max-width: 1200px){
+    .page3{
+        font-size:smaller;
+        
+       }
+    }
+/*point de rupture
+Desktop : au delà de 1024 pixels
+Tablette : entre 600 et 1024 pixels (en mode portrait)
+Mobile : entre 320 et 600 pixels (en mode portrait)
+cela sont des moyennes de tailles d ecran*/
